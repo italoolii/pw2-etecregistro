@@ -1,0 +1,57 @@
+/* Estilos Univerais */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* estilos gerais */
+body{
+    font-family: "Arial";
+    background-color: #30202e;
+    color: #ffffff;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.destaque{
+    background-color: #ffd700;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #ff6347;
+    font-weight: bold;
+}
+
+.box{
+    width: 530px;
+    background-color: #3a3a38;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid #8cc9e4;
+    border-radius: 8px;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+/* será executado quando passar o mouse em cima */
+.box:hover{
+    background-color: crimson;
+    border-color: #8cc9e4;
+    color: #30302e;
+    transform: scale(0.9);
+}
+
+.btn-downlad{
+    background-color: greenyellow;
+    color:white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-download:hover{
+    background-color: #2f7533;
+}
