@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+ var nome = window.prompt("Digite seu nome: ");
+ document.write(`Seu nome é ${nome}`);
+ var datanasci = window.prompt("Digite seu ano de nascimento ");
+ document.write(`<br>Sua idade é ${2026 - datanasci}`);
+ var cidade = window.prompt("Digite sua cidade: ");
+ document.write(`<br>Sua cidade é ${cidade}`);
+ var salarioReal = window.prompt("Digite seu salário: ");
+var salarioDolar = salarioReal * 0.19;
+document.write(`<br> salario em real: ${salarioDolar.toLocaleString("pt-BR", { style: "currency", currency: "USD" })}`)
+</script>
+</html>
